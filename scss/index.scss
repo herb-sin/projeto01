@@ -1,37 +1,66 @@
 $fontBody: 'Segoe UI', Helvetica, Arial;
-$firstColor: #1DA1F2; /*azul*/
-$secondColor: #F2F2F2; /*cinza claro*/
-$thirdColor: #6E6E6E; /*cinza escuro*/
-$fourthColor: #000; /*preto*/
+$firstColor: #1DA1F2; //azul*/
+$secondColor: #F2F2F2; //cinza claro
+$thirdColor: #6E6E6E; //cinza escuro
+$fourthColor: #000; //preto
+/*
+GERAL
+*/
 * {
 	margin: 0;
 	padding: 0;
 }
-body{
-	list-style: none;
-	font-size: 1em;
+body {
 	font-family: $fontBody;
-}
-a{
-	text-decoration: none;
-	color: $fourthColor;
-}
-a:hover {
-	color: $firstColor;
-
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	ul {
+	list-style: none;
 	}
+}
+div {
+	margin-top: 10px;
+}
+/*
+LINKS
+*/
+a {
+	text-decoration: none;
+	color: #000;
+	&:hover {
+	color: $firstColor;
+	}
+}
+#one {
+	padding: 0px 10px 0px 10px;
+	height: 100%;
+    position: sticky;
+    top: 10px;
+    text-align: center;
+}
+#two {
+	width: auto;
+	justify-content: center;
+}
 /*
 NAVEGAÇÃO
 */
 nav {
-	display:block;
-	position: fixed;
-	top:0px;
-	left: auto;
-	height: 100%;
-	width: 10%;
-	background-color: blue;
-
+	img {
+	width: 50%;
+	}
+	a {
+	font-size: 2em;
+	font-weight: 700;
+	}
+	li {
+	text-align: left;
+	margin-top: 10px;
+	}
+	p{
+	font-size: 1.2em;
+	}
 }
 /*
 SESSÃO PESQUISA
@@ -40,11 +69,9 @@ h2 {
 	font-size: 1.5em;
 	text-align:center;
 }
-#search div {
-	width:100%;
-	display:flex;
-	justify-content: center;
-	margin: 10px 0px 10px 0px;
+#box_search, #button_search{
+display: flex;
+justify-content: center;
 }
 .box_search {
 	border-radius: 23px;
@@ -77,9 +104,8 @@ BOTÃO DE PESQUISA
 .button_search:hover{
 	background-color:#027DC8;
 	}
-
 /*
-SESSÃO RESULTADOS DA PESQUISA
+RESULTADOS DAS BUSCAS
 */
 #results_search{
 	display:flex;
