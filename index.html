@@ -1,46 +1,44 @@
-<!DOCTYPE HTML>
-<html lang="pt-BR">
-
+<!DOCTYPE html>
+<html>
 <head>
-<link href="cssgeral.css" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <title>Busca no Twitter</title>
 </head>
-
-<header>
-    <iframe id="topo" src="./topo.html"></iframe><br />
-</header>
-
 <body>
-    <left><a href="index.html" alt="Home">Home</a> • <a href="about.html">Sobre</a></left>
-    <div id="box_externo">
-            <h1>Busca no Twitter</h1>
-            <h2>Ferramenta de busca de mensagens e imagens</h2>
-            <p>Digite uma hashtag para a busca das últimas 10 mensagens e últimas 10 imagens relacionadas</p>
-        </div>
-        <!--id=box_externo-->
-    <p>
-        <input class="caixapes" type="text" id="myText" value="#" />
-    </p>
-    <input class="botaopes" type="submit" value="Pesquisar">
-    <form>
-        <fieldset>
-            <legend><b>Visualização das últimas 10 mensagens</b></legend>
-       
-        </fieldset>
-    </form>
-
-    <br>
-    <br>
-
-    <form>
-        <fieldset>
-            <legend><b>Visualização das últimas 10 imagens</b></legend>
-        
-        </fieldset>
-    </form>
-    <footer>
-        <iframe id="rodape" src="./rodape.html"></iframe>
-    </footer>
-
+    <! -- menu de navegação -->
+    <nav>
+        <img src="images/iconetwitter.png" alt="Icone do Twitter />"
+        <ul>
+            <li>
+                <a href="index.html">Página Inicial</a>
+            </li>
+            <li>
+                <a href="about.html">Sobre</a>
+            </li>
+        </ul>
+        <p>© 2020 Cocreare</p>
+    </nav>
+    <! -- fim do menu de navegação -->
+    <! -- sessão de busca -->
+    <section id="search">
+        <h2>Busque as 10 últimas postagens e imagens do assunto</h2>
+        <input class="box_search" type="text" value="#" />
+        <input class="button_search" type="submit" value="PESQUISAR">
+    </section>
+    <! -- fim da sessão de busca -->
+    <! -- sessão resultado das buscas -->
+    <section id="results_search">
+    <! -- ultimas postagens -->
+    <div class="last_posts">
+        <h1>Últimas postagens</h1>
+    </div>
+    <! -- fim das ultimas postagens -->
+    <! -- ultimas imagens -->
+    <div class="last_images">
+        <h1>Últimas imagens</h1>
+    </div>
+    <! -- fim das ultimas imagens -->
+    </section>
+    <! -- fim da sessão resultado das buscas -->
 </body>
-
 </html>
