@@ -125,7 +125,7 @@ RESULTADOS DAS BUSCAS
 	}
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1500px) {
   body {
     display: flex;
     flex-direction: column;
@@ -133,6 +133,7 @@ RESULTADOS DAS BUSCAS
   #one {
 	padding: 0px 10px 0px 10px;
 	width: 100%;
+	position: relative;
     text-align: center;
 }
 nav {
@@ -151,4 +152,4 @@ nav {
 	font-size: 1.2em;
 	}
 }
-  }
+}
