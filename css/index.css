@@ -31,7 +31,8 @@ a {
   height: 100%;
   position: sticky;
   top: 10px;
-  text-align: center; }
+  text-align: center;
+  transition: 1s; }
 
 #two {
   width: auto;
