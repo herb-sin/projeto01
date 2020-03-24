@@ -15,14 +15,28 @@ body {
 a {
   text-decoration: none;
   color: #000; }
-  a :hover {
-    color: #1DA1F2; }
+
+a:hover {
+  color: #1DA1F2; }
+
+/*
+NAVEGAÇÃO
+*/
+nav {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: auto;
+  height: 100%;
+  width: 10%;
+  background-color: blue; }
 
 /*
 SESSÃO PESQUISA
 */
 h2 {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  text-align: center; }
 
 #search div {
   width: 100%;
