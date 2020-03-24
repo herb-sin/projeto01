@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/*azul*/
+/*cinza claro*/
+/*cinza escuro*/
+/*preto*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  list-style: none;
+  font-size: 1em;
+  font-family: "Segoe UI", Helvetica, Arial; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+  a :hover {
+    color: #1DA1F2; }
+
+/*
+SESSÃO RESULTADOS DA PESQUISA
+*/
+#results_search {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  #results_search div {
+    width: 643px;
+    background-color: #F2F2F2;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50px 50px 0px 0px;
+    height: 100%; }
+    #results_search div h1 {
+      text-align: center;
+      font-size: 2.5em;
+      padding: 10px 0px 10px 0px; }
