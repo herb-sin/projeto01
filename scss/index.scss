@@ -125,3 +125,30 @@ RESULTADOS DAS BUSCAS
 	}
 	}
 }
+@media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  #one {
+	padding: 0px 10px 0px 10px;
+	width: 100%;
+    text-align: center;
+}
+nav {
+	img {
+	width: 10%;
+	}
+	a {
+	font-size: 2em;
+	font-weight: 700;
+	}
+	li {
+	margin-top: 10px;
+	text-align:center;
+	}
+	p{
+	font-size: 1.2em;
+	}
+}
+  }
