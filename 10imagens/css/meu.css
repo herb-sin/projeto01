@@ -1,0 +1,99 @@
+/*meu CSS*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  top: 307px;
+  left: 1130px;
+  width: 624px;
+  height: 1521px;
+  border: 2.5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.child1 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-image: url(../images/01.png);
+}
+
+.child2 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(0, 255, 21);
+}
+
+.child3 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-image: url(../images/02.png);
+}
+
+.child4 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: brown;
+}
+
+.child5 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(247, 0, 255);
+}
+
+.child6 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(255, 255, 255);
+}
+
+.child7 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(0, 0, 0);
+}
+
+.child8 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(255, 174, 0);
+}
+
+.child9 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(0, 255, 255);
+}
+
+.child10 {
+  top: 307px;
+  left: 1130px;
+  width: 300px;
+  height: 287px;
+  background-color: rgb(255, 187, 0);
+}
