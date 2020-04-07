@@ -142,7 +142,13 @@ RESULTADOS DAS BUSCAS
 	margin: 0 auto;
 	border: 1px solid #ccc;
 }
+.last_images {
+  text-align: center;
 
+}
+.last_images img {
+  height: 20vw;
+}
 /*
 MEDIA QUERIES
 */
