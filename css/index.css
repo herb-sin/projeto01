@@ -138,25 +138,7 @@ RESULTADOS DAS BUSCAS
   text-align: center;
   padding: 10px 0px 10px 0px; }
 
-  /* Flex das últimas imagens */
-.flex {
-	display: flex;
-}
-
-.flex-wrap {
-	flex-wrap: wrap;
-}
-
-/* Flex Item das últimas imagens*/
-.item {
-	margin: 5px;
-	background: tomato;
-	text-align: center;
-	font-size: 1.5em;
-}
-
 .container {
-	max-width: 400px;
 	margin: 0 auto;
 	border: 1px solid #ccc;
 }
