@@ -100,18 +100,18 @@ BOTÃO DE PESQUISA
 /*
 RESULTADOS DAS BUSCAS
 */
-#results_search {
+.results_search {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
-  #results_search div {
+  .results_search div {
     width: 620px;
     background-color: #F2F2F2;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 50px 50px 0px 0px;
     height: 100%; }
-    #results_search div h1 {
+    .results_search div h1 {
       text-align: center;
       font-size: 2.5em;
       padding: 10px 0px 10px 0px;
@@ -137,6 +137,29 @@ RESULTADOS DAS BUSCAS
 #nomore {
   text-align: center;
   padding: 10px 0px 10px 0px; }
+
+  /* Flex das últimas imagens */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+/* Flex Item das últimas imagens*/
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
 
 /*
 MEDIA QUERIES
