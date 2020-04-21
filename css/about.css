@@ -1,0 +1,76 @@
+.principal {
+	flex-direction: row;
+	display: flex;
+}
+
+#one {
+    right: 120px;
+}
+
+#two {
+    right: 205px;
+    position: relative;
+}
+
+.borda {
+	background: #1DA1F2;
+    height: 250px;
+}
+
+.caixa {
+	position: relative;
+    top: 35px;
+    left: 350px;
+    bottom: 400px;
+    right: 300px;
+    background: white;
+	width: 170px;
+	height:  170px;
+	border-radius: 50%;
+	border: 1px solid #707070;
+	opacity: 1;
+
+}
+
+.titulo-colaboradores {
+    right: 400px;
+}
+
+.colaboradores {
+	color: white;
+	position: relative;
+	left: 540px;
+	bottom: 320px;
+
+
+}
+
+.area-atuacao {
+    color: white;
+    position: relative;
+    bottom: 330px;
+    left: 560px;
+
+}
+
+.texto-colaboradores {
+    color: black;
+    position: relative;
+    bottom: 310px;
+    left: 560px;
+    opacity: 1;
+    width: 550px;
+    font-size: 14px;
+}
+
+.botao-esquerdo {
+    position: relative;
+    bottom: 100px;
+    left: 305px;
+}
+
+.botao-direita {
+    position: relative;
+    bottom: 185px;
+    left: 1200px;
+}
