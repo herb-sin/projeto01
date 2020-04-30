@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 
+<script src="javascript/validacao.js"></script>
+
 <body>
     <section id="one">
         <nav>
@@ -31,10 +33,10 @@
                 <h2>Busque as 10 últimas postagens e imagens do assunto</h2>
             </div>
             <div id="box_search">
-                <input class="box_search" type="text" value="#" />
+                <input name="kw" id="kw" type="text" class="box_search" value="#" onfocus="this.value='';"/>>
             </div>
             <div id="button_search">
-                <input class="button_search" type="submit" value="PESQUISAR">
+                <input class="button_search" type="button" value="PESQUISAR" onclick="validar()">
             </div>
         </div>
         <div class="results_search">
