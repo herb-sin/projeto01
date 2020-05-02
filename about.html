@@ -38,8 +38,7 @@
                 A idéia desse projeto é criar página web responsiva para visualização de mensagens e imagens com integração com a API do Twitter.
                 <br>
                 <br>
-                A Cocrere Academy é especialista em desenvolvimento web/mobile, apaixonados por compartilhar conhecimento, vivem para tecnologia e respiram criatividade e inovação.
-                Oferecem serviços como desenvolvimento de sites, aplicativos, sistemas web e outsourcing de desenvolvimento.
+                Nesse projeto trabalhamos com HTML, CSS, JavaScript e Angular. Foi um projeto desafiador e cheio de conquistas. 
                 <br>
                 <br>
                 Abaixo saiba um pouco mais sobre todas as pessoas que colaboraram com esse projeto. Somos todos novatos, por isso, sejam bonzinhos!
@@ -58,23 +57,129 @@
     </section>
     </div>
     <div class="borda">
-                <div class="caixa">
-                </div>
+                <img scr="./images/duda.jpg" class="caixa slide-1" style="background: url(./images/duda.jpg);   background-size: cover;">
+                <img scr="./images/duda.jpg" class="caixa slide-2" style="background: url(./images/herbert.jpg);background-size: cover;">
+                <img scr="./images/duda.jpg" class="caixa slide-3" style="background: url(./images/Renan.jpg);background-size: cover;>
                 <div class="botao-esquerdo">
+                    <div class="botao-esquerdo">
+                    <button onclick="changeSlide(-1)" class="botao-style">
                     <img src="./images/botaoesquerdo.png" alt = "Botão Esquerdo">
+                </button>
                 </div>
                 <div class="botao-direita">
+                    <button onclick="changeSlide(1)" class="botao-style2">
                     <img src="./images/botaodireita.png" alt = "Botão Direita">
+                </button>
                 </div>
                 <div class="colaboradores">
-                    <h3>Nome do Colaborador</h3>
+                    <div class="slide-1">
+                    Maria Eduarda Serak
+                </div>
+                    <div class="slide-2">
+                   Herbert Jung Sin
+                </div>
+                    <div class="slide-3">
+                    Renan Motta 
+                </div>
                 </div>
                 <div class="area-atuacao">
-                    Área de Atuação
+                    <div class="slide-1">
+                    Desenvolvedora Junior
+                </div>
+                    <div class="slide-2">
+                    Desenvolvedor Junior
+                </div>
+                    <div class="slide-3">
+                    Desenvolvedor Junior
+                </div>
                 </div>
                 <div class="texto-colaboradores">
+                    <div class="slide-1">
+                    Analista de Marketing em uma empresa de Cibersegurança acabou conhecendo o mundo da programação com um colega de trabalho. Empolgada, inicou o curso de Programação com a Cocreary Academy no começo do ano, participou desse 1º projeto em grupo com muito afinco, em alguns momentos chorou, mas passa bem e segue evoluindo.
+                </div>
+                    <div class="slide-2">
+                    Com muita determinação, Hebert já sabe como é trabalhar na área de TI, é estudante de Análise e Desenvolvimento de Sistema e já está estagiando.
+                    Muito aventureiro, aos 33 anos, começou o curso de Programação na Cocreary Academy no íncio do ano. Participou ativamente desse projeto do começo ao fim.
+                </div>
+                    <div class="slide-3">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
                 </div>
+
             </div>
+                </div>
+            </div>
+            <style>
+        .slide-3,
+        .slide-2 {
+            display: none;
+        }
+    </style>
+    <body>
+        <!-- Conteudo principal -->
+        
+
+        <script>
+
+            var slidePos = 1;
+
+            function changeSlide(increment) {
+                console.log(increment);
+                console.log(document.querySelector('.slide-'+slidePos));
+                console.log(slidePos)
+                if (slidePos >= 4 ) {
+                    slidePos = 3;
+                }
+                
+                if (slidePos <= 0) {
+                    slidePos = 1;
+                }
+
+                var allSlideElement = document.querySelectorAll('.slide-'+slidePos)
+                console.log(allSlideElement)
+                for (let element of allSlideElement) {
+                    console.log("interando..")
+                    console.log(element)
+                    element.style.display ="none"
+                }
+                
+                slidePos = slidePos + increment;
+                
+                if (slidePos >= 4 ) {
+                    slidePos = 3;
+                }
+                
+                if (slidePos <= 0) {
+                    slidePos = 1;
+                }
+
+
+                var allSlideElement = document.querySelectorAll('.slide-'+slidePos)
+                console.log(allSlideElement)
+                for (let element of allSlideElement) {
+                    console.log("interando..")
+                    console.log(element)
+                    element.style.display ="block"
+                }
+
+                
+                
+
+            }
+
+        </script>
+
+        <script>
+            var x = 5;
+
+            function teste() {
+                x=4
+                console.log(x);
+
+            }
+
+            console.log(x);
+            teste();
+            console.log(x);
+        </script>
 </body>
 </html>

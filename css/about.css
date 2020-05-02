@@ -67,10 +67,23 @@
     position: relative;
     bottom: 100px;
     left: 305px;
+    
 }
 
 .botao-direita {
     position: relative;
     bottom: 185px;
     left: 1200px;
+    border: 0px;
+    background: border-box;
+}
+
+.botao-style {
+    border: 0px;
+    background: border-box;
+}
+
+.botao-style2 {
+    border: 0px;
+    background: border-box;
 }
